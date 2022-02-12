@@ -40,4 +40,4 @@ export default function Model({ run, setPosition, ...props }) {
   );
 }
 
-useGLTF.preload("/player.glb");
+useGLTF.preload("/player/scene.gltf");
