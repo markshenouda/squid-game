@@ -46,7 +46,12 @@ function App() {
         <Player position={position} run={run} setPosition={setPosition} />
         <Doll />
         <Tree />
-        <Environment preset="sunset" background />
+        <Environment
+          files={
+            "https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/hdris/rooitou/rooitou_park_1k.hdr"
+          }
+          background
+        />
       </Suspense>
       <MainScreen />
     </Canvas>
